@@ -7,8 +7,5 @@ def oxford_comma(array)
     blah = ", and #{array.pop()}"
     new_array=array.join(", ")
     new_array.concat(blah)
-    
-  else
-    
   end
 end
